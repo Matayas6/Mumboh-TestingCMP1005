@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mumboh-TestingCMP1005", "Mumboh-TestingCMP1005\Mumboh-TestingCMP1005.csproj", "{CFA8204A-0D2E-43AD-9256-687E1751835D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFA8204A-0D2E-43AD-9256-687E1751835D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFA8204A-0D2E-43AD-9256-687E1751835D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFA8204A-0D2E-43AD-9256-687E1751835D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFA8204A-0D2E-43AD-9256-687E1751835D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69C69364-CA45-47F2-BE6D-6FD5B27A62E7}
+	EndGlobalSection
+EndGlobal
