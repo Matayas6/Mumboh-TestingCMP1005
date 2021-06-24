@@ -31,25 +31,25 @@ namespace Mumboh_TestingCMP1005.Pages
         {
 
         }
-        public void OnPost(double labelOneInput, double labelTwoInput, string logic)
+        public void OnPost(double NumberOne, double NumberTwo, string logic)
         {
 
             switch (logic)
             {
                 case "add":
-                    Calculation = labelOneInput + labelTwoInput;
+                    Calculation = NumberOne + NumberTwo;
                     CalculationSet = true;
                     break;
                 case "sub":
-                    Calculation = labelOneInput - labelTwoInput;
+                    Calculation = NumberOne - NumberTwo;
                     CalculationSet = true;
                     break;
                 case "mul":
-                    Calculation = labelOneInput * labelTwoInput;
+                    Calculation = NumberOne * NumberTwo;
                     CalculationSet = true;
                     break;
                 case "div":
-                    Calculation = labelOneInput / labelTwoInput;
+                    Calculation = NumberOne / NumberTwo;
                     CalculationSet = true;
                     break;
                 default:
