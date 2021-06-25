@@ -5,18 +5,19 @@
 }
 
 <form asp-action="/index" method="post">
-    <input type="number" name="NumberOne" />
-    <input type="number" name="NumberTwo" />
+    <input type="number" name="NumberOne" id="numberOne"/>
+    <input type="number" name="NumberTwo" id="numberTwo"/>
     <fieldset>
-        <label><input type="checkbox" name="logic" value="add" />Add</label>
-        <label><input type="checkbox" name="logic" value="sub" />Subtract</label>
-        <label><input type="checkbox" name="logic" value="mul" />Multiply</label>
-        <label><input type="checkbox" name="logic" value="div" />Divide</label>
+        <label><input type="checkbox" name="logic" value="div" id="logicalDiv"/>Divide</label>
+        <label><input type="checkbox" name="logic" value="sub" id="logicalSub"/>Subtract</label>
+        <label><input type="checkbox" name="logic" value="add" id="logicalAdd"/>Add</label>
+        <label><input type="checkbox" name="logic" value="mul" id="logicalMul"/>Multiply</label>
+
     </fieldset>
-    <input type="submit" value="Calculate" />
+    <input type="submit" value="Calculate" id="Calculate" />
 </form>
 
 @if (@Model.CalculationSet)
 {
-    <p>Answer = <output>@Model.Calculation</output></p>
+    <p>Answer = <output id="Answer">@Model.Calculation</output></p>
 }
